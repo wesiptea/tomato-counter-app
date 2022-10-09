@@ -1,0 +1,52 @@
+body {
+    background:tomato;
+    font-family: 'Mansalva', cursive;
+    /* font-family: 'Montserrat', sans-serif;     */
+    font-weight:bolder;
+    text-align: center;
+    /* to center all element within parent element */
+    display: grid;
+    place-items: center;
+}
+
+div {
+    max-width: 40%;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    font-family: 'Mansalva', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background:whitesmoke;
+}
+
+#save-btn {
+    background:darkolivegreen;
+    color: whitesmoke;
+}
