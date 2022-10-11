@@ -10,8 +10,10 @@ body {
 }
 
 div {
+    border: whitesmoke dotted 3px;
     max-width: 40%;
     display: grid;
+    padding: 25px;
     place-items: center;
 }
 

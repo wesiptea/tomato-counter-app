@@ -6,6 +6,7 @@
 // 3 increment the count variable when the button is clicked
 // 4 change the count-el in the HTML to reflect the new count
 
+let totalEl = document.getElementById("total-el");
 let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 let count = 0;
@@ -23,4 +24,4 @@ function save() {
     count = 0;
 }
 
-
+// possible improvements to work on: total function
