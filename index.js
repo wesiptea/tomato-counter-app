@@ -24,4 +24,4 @@ function save() {
     count = 0;
 }
 
-// possible improvements to work on: total function
+// possible improvements to work on - add a total function
